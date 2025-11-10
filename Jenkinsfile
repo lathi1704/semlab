@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/lathi1704/NXTLVL.git'
+                git branch: 'main', url: 'https://github.com/lathi1704/semlab.git'
             }
         }
 
